@@ -16,11 +16,38 @@ h1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
 } 
 
 #search-form {
     display: flex;
     align-content: space-evenly;
+
+}
+input[type="text"] {
+    width: 70%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+}
+input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+button[type="submit"] {
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(47, 39, 39);
 }
 
 .container {
@@ -31,6 +58,7 @@ h1{
     height: 260px;
     background-color: rgb(207, 220, 232);
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .card-header {
@@ -59,6 +87,7 @@ h1{
     grid-row-start: 2;
     grid-row-end: -1;
     padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .weather-details {
