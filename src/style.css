@@ -1,4 +1,71 @@
 body {
     font-family: Arial, sans-serif;
     background: lightblue;
+    text-align: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 56px;
+} 
+
+#search-form {
+    display: flex;
+    align-content: space-evenly;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25px, 1fr;
+    grid-template-rows:50px 1fr;
+    width: 600px;
+    height: 260px;
+    background-color: rgb(207, 220, 232);
+    border-radius: 10px;
+}
+
+.card-header {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-bottom: solid black 1px;
+}
+
+.card-left {
+    grid-row-start: 2;
+    grid-row-end: 6;
+    padding-top: 25px;
+    border-right: solid black 1px;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    padding-top: 25px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: solid black 1px;
+    padding-left: 26px;
+    padding-right: 26px;
 }

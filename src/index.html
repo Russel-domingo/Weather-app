@@ -7,7 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1></H1>
+    <div class="main">
+        <h1>Weather</h1>
+        <form action="" id="seach-form">
+            <input type="text" id="search-input" placeholder="Search City">
+            <button type="submit" id="search-button">Search</button>
+        </form>
+        
+        <div class="container">
+            <div class="card-header">
+                <h2>Philippines</h2>
+                <p>Time: 10:00pm</p>
+            </div>
+            <div class="card-left">
+                <i id="weather-icon"></i>
+                <div id="current-temp">45C</div>
+            </div>
+            <div class="card-right">
+                <div class="weather-details">
+                    <span>Condition</span>
+                    <span id="condition">Overcast</span>
+                </div>
+                <div class="weather-details">
+                    <span>Feels Like</span>
+                    <span id="feels-like">5C</span>
+                </div>
+                <div class="weather-details">
+                    <span>Humidity</span>
+                    <span id="humidity">55%4</span>
+                </div>
+                <div class="weather-details">
+                    <span>Wind Gusts</span>
+                    <span id="wind-gusts">7.5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
