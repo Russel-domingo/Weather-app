@@ -1,6 +1,6 @@
 
 import { error } from "ajv/dist/vocabularies/applicator/dependencies";
-import "./style.css";
+import "../assets/css/style.css";
 
 console.log("Webpack is working");
 
