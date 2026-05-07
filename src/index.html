@@ -9,36 +9,36 @@
 <body>
     <div class="main">
         <h1>Weather</h1>
-        <form action="" id="seach-form">
+        <form action="" id="search-form">
             <input type="text" id="search-input" placeholder="Search City">
             <button type="submit" id="search-button">Search</button>
         </form>
         
         <div class="container">
             <div class="card-header">
-                <h2>Philippines</h2>
-                <p>Time: 10:00pm</p>
+                <h2 id="location"></h2>
+                <p>Data: <span id="time"></span></p>
             </div>
             <div class="card-left">
-                <i id="weather-icon"></i>
-                <div id="current-temp">45C</div>
+                <img alt="" id="weather-icon">
+                <div id="current-temp"></div>
             </div>
             <div class="card-right">
                 <div class="weather-details">
                     <span>Condition</span>
-                    <span id="condition">Overcast</span>
+                    <span id="condition"></span>
                 </div>
                 <div class="weather-details">
                     <span>Feels Like</span>
-                    <span id="feels-like">5C</span>
+                    <span id="feels-like"></span>
                 </div>
                 <div class="weather-details">
                     <span>Humidity</span>
-                    <span id="humidity">55%4</span>
+                    <span id="humidity"></span>
                 </div>
                 <div class="weather-details">
                     <span>Wind Gusts</span>
-                    <span id="wind-gusts">7.5</span>
+                    <span id="wind-gusts"></span>
                 </div>
             </div>
         </div>
